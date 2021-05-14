@@ -1,4 +1,5 @@
 /*НАЗНАЧЕНИЕ ПАРШАЛОВ*/
+// fonts - локальные шрифты
 // reset - зброс стилей
 // palette - палитра проэкта
 // variables - переменные
@@ -8,17 +9,17 @@
 // button - стили кнопок(в макете они все одинвковые разный только текст)
 // social_icons - стили иконок соц. сетей
 
-
-@import "./base/reset";
-@import "./base/palette";
-@import "./abstracts/variables";
-@import "./abstracts/common";
-@import "./abstracts/mixins";
-@import "./abstracts/placeholders";
-@import "./components/button";
-@import "./components/social_icons";
-@import "./layout/header";
-@import "./layout/menu";
-@import "./layout/navigations";
-@import "./layout/hero";
-@import "./layout/forms";
+@import './base/fonts';
+@import './base/reset';
+@import './base/palette';
+@import './abstracts/variables';
+@import './abstracts/common';
+@import './abstracts/mixins';
+@import './abstracts/placeholders';
+@import './components/button';
+@import './components/social_icons';
+@import './layout/header';
+@import './layout/menu';
+@import './layout/navigations';
+@import './layout/hero';
+@import './layout/forms';
