@@ -5,20 +5,21 @@
 // common - формулы flex и контейенр
 // mixins - миксины
 // placeholders - плейсхолдеры
+// logo - логотип сайта
 // button - стили кнопок(в макете они все одинвковые разный только текст)
 // social_icons - стили иконок соц. сетей
 
-
-@import "./base/reset";
-@import "./base/palette";
-@import "./abstracts/variables";
-@import "./abstracts/common";
-@import "./abstracts/mixins";
-@import "./abstracts/placeholders";
-@import "./components/button";
-@import "./components/social_icons";
-@import "./layout/header";
-@import "./layout/menu";
-@import "./layout/navigations";
-@import "./layout/hero";
-@import "./layout/forms";
+@import './base/reset';
+@import './base/palette';
+@import './abstracts/variables';
+@import './abstracts/common';
+@import './abstracts/mixins';
+@import './abstracts/placeholders';
+@import './components/logo';
+@import './components/button';
+@import './components/social_icons';
+@import './layout/header';
+@import './layout/menu';
+@import './layout/navigations';
+@import './layout/hero';
+@import './layout/forms';
