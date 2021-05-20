@@ -1,28 +1,17 @@
-.program{
-  background-color: $main-bg-cr;
-
-  @media screen and (min-width: 1280px) {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding-bottom: 68px;
-  }
-}
-
-
 .program__container {
   display: block;
-  margin-bottom: 18px;
-  background-color: fff;
+  padding-bottom: 18px;
 
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0px;
   }
 
   @media screen and (min-width: 1280px) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 68px;
+    padding-bottom: 68px;
   }
 }
 
@@ -53,7 +42,7 @@
 
   &:last-child {
     transform: translateY(0px);
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 
     @media screen and (min-width: 768px) {
       transform: translateY(10px);
@@ -164,19 +153,51 @@
   }
 }
 
-.program__text-add {
+.program__text-wrap {
+  /*   @media screen and (min-width: 768px) {
+    max-width: 336px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 392px;
+    padding-top: 100px;
+    padding-bottom: 39px;
+    padding-right: 5px;
+  } */
+
+  &--textblock-hidden {
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  &--textblock-visable {
+    @media screen and (max-width: 1279.98px) {
+      display: none;
+    }
+    @media screen and (min-width: 1280px) {
+      display: block;
+    }
+  }
+}
+
+/* .program__text-add {
   display: none;
 
   @media screen and (min-width: 1280px) {
     display: block;
   }
-}
+} */
 .program-card {
   transform: translateY(-30px);
 
   @media screen and (min-width: 1280px) {
     transform: translateY(-40px);
   }
+}
+
+.program-card__icon {
+  fill: $programs-icons-cr;
 }
 
 .icon-chef-hat {
